@@ -1,0 +1,35 @@
+body {
+   margin: 0;
+   font-size: 110%;
+   background-color: #f0f0f0;
+}
+
+header {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   padding: 1em;
+   font-size: 1.2em;
+   background: indigo;
+
+   a {
+      color: darkgray;
+      text-decoration: none;
+
+      :hover {
+         font-weight: bold;
+         color: lightgray;
+      }
+   }
+}
+
+footer {
+   padding: 1em;
+}
+
+.root {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}

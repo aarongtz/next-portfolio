@@ -1,9 +1,13 @@
 import Image from 'next/image'
-
+import Link from 'next/link'
+import Layout from '../components/layout';
 
 const About = () => (
-   <div>
-      <h1>About</h1>
+   <Layout title="About">
+      
+      <Link href="/">
+         <a>Go to home</a>
+      </Link>
       <p>A Javascript programmer</p>
       <Image
          priority
@@ -12,7 +16,7 @@ const About = () => (
          height={250}
          alt="Javascript Logo"
       />
-   </div>
+   </Layout>
 )
 
 export default About;
